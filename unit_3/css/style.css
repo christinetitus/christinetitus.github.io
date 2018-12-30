@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body, html {
+		height: 100%;
+		font-family: "Fauna One", sans-serif;
+		font-size: 15px;
+		font-weight: 300;
+		color: #222222;
+		line-height: 1.3;
+	}
+
+nav{
+	background-color: #D3DBD6;
+	height: 5%;
+}
+
+nav a {
+
+	display: block;
+	padding: 8px;
+	text-align: center;
+	float: right;
+	border: none;	
+}	
+
+	
+	/* The hero image*/
+
+.hero-image {
+	/* trying "linear-gradient" to add a darkened background effect to the image.  This will make the text easier to read */
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/woman_leaf.jpg");
+	height: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	}
+
+.hero-text{
+	text-align: left;
+	top: 50%;
+	left: 50%;
+	color: #FAFCFB;
+}
+
+img{
+	max-width: 30%;
+	height:auto;
+}
+
+
+h1{
+	color: #FAFCFB;
+	font-style: bold;
+	font-weight: 400;	
+}
+
+h2, h5 {
+	color: #345742;
+	font-style: normal;
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+
+.more-info{
+	padding: 20px; 
+}
+
+#slogan{
+	font-size: 20px;
+	color: #FAFCFB;
+	font-style: italic;
+}
+
+
+a {
+	color: inherit;
+	font-style: bold;
+	text-decoration: none;
+	/*font-family: "Fauna One", sans-serif;*/
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: #D3DBD6;
+	height: 5%;
+	border: none;
+	padding: 20px;	
+	text-align: center;
+}	
+
+
+
+
+
+
