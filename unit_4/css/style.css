@@ -28,7 +28,48 @@ nav a {
 	text-transform: uppercase;	
 }	
 
-	/* The hero image*/
+img{
+	max-width: 30%;
+	height:auto;
+}
+
+h1{
+	font-family: 'Fauna One', "serif";
+	color: #FAFCFB;
+	font-style: bold;
+	font-weight: 400;	
+}
+
+h2, h5 {
+	
+	font-family: 'Fauna One', 'serif';
+	color: #345742;
+	font-style: normal;
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+p{
+	font-family: 'Roboto', 'sans serif';
+
+}
+
+a {
+	color: #345742;
+	text-decoration: none;
+	font: inherit;
+	font-weight: inherit;
+
+}
+
+footer {
+	font-family: 'Fauna One','serif';
+	background-color: #D3DBD6;
+	height: 5%;
+	border: none;
+	padding: 20px;	
+	text-align: center;
+}	
 
 .hero-image {
 	/* trying "linear-gradient" to add a darkened background effect to the image.  This will make the text easier to read */
@@ -47,35 +88,6 @@ nav a {
 	left: 50%;
 	color: #FAFCFB;
 }
-
-img{
-	max-width: 30%;
-	height:auto;
-}
-
-
-h1{
-	font-family: 'Fauna One', "serif";
-	color: #FAFCFB;
-	font-style: bold;
-	font-weight: 400;	
-}
-
-h2, h5 {
-	
-	font-family: 'Fauna One', 'serif';
-	color: #345742;
-	font-style: normal;
-	font-weight: 300;
-	margin: 15px 0;
-}
-
-
-p{
-	font-family: 'Roboto', 'sans serif';
-
-}
-
 .more-info{
 	padding: 20px; 
 }
@@ -87,22 +99,7 @@ p{
 }
 
 
-a {
-	color: #345742;
-	text-decoration: none;
-	font: inherit;
-	font-weight: inherit;
 
-}
-
-footer {
-	font-family: 'Fauna One','serif';
-	background-color: #D3DBD6;
-	height: 5%;
-	border: none;
-	padding: 20px;	
-	text-align: center;
-}	
 
 
 
