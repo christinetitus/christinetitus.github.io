@@ -33,7 +33,7 @@ nav a {
 .hero-image {
 	/* trying "linear-gradient" to add a darkened background effect to the image.  This will make the text easier to read */
 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/woman_leaf.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-2.jpg");
 	height: 80%;
 	background-position: center;
 	background-repeat: no-repeat;
