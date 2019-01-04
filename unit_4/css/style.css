@@ -17,6 +17,7 @@ body, html {
 nav{
 	background-color: #D3DBD6;
 	height: 10%;
+	padding: 30px;
 }
 
 nav a {
@@ -29,15 +30,17 @@ nav a {
 }	
 
 img{
+	display: block;
 	max-width: 30%;
 	height:auto;
 }
 
 h1{
 	font-family: 'Fauna One', "serif";
-	color: #FAFCFB;
+	color: #345742;
 	font-style: bold;
-	font-weight: 400;	
+	font-weight: 400;
+	font-size: 2em;
 }
 
 h2, h5 {
@@ -71,32 +74,34 @@ footer {
 	text-align: center;
 }	
 
-.hero-image {
+#hero_image {
 	/* trying "linear-gradient" to add a darkened background effect to the image.  This will make the text easier to read */
 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-2.jpg");
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-2.jpg");*/
 	height: 80%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+	background-size: auto;
 	}
 
-.hero-text{
+/*#hero-text{
 	text-align: left;
 	top: 50%;
 	left: 50%;
 	color: #FAFCFB;
-}
-.more-info{
-	padding: 20px; 
+}*/
+
+#more_info_1{
+	padding: 20px;
+	background-color: pink;
+	width: 30%;
 }
 
-#slogan{
+/*#slogan{
 	font-size: 20px;
 	color: #FAFCFB;
 	font-style: italic;
-}
+}*/
 
 
 
